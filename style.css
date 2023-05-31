@@ -1,1 +1,40 @@
-body { background-color: #E0E0E0; }
+body { 
+    background-color: #E0E4E2; 
+}
+
+a {
+    color: #116699;
+}
+
+table {
+    border-collapse: collapse;
+    background-color: #E0E4E2;
+}
+
+.markdown-body table tr {
+    border-top: 0;
+}
+
+.markdown-body table th, .markdown-body table td {
+    border-collapse: collapse;
+    padding: 0;
+    border: 0;
+}
+
+.markdown-body table th, .markdown-body table td:nth-child(1) {
+    background-color: #C0C4C2;
+    border-radius: 27px 0px 0px 27px;
+    padding: 0px 6px 0px 16px;
+}
+
+.markdown-body table th, .markdown-body table td:nth-child(2) {
+    background-color: #C0C4C2;
+    border-radius: 0px 27px 27px 0px;
+}
+
+sub {
+    font-size: small;
+    background-color: #C0C4C2;
+    border-radius: 12px;
+    padding: 2px 6px;
+}
